@@ -14861,7 +14861,7 @@ Coordinates:
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
 <li>Built-in dask support for large datasets<ul>
-<li><code>da = xr.open_mfdataset(filename, chunks={'time':10})</code></li>
+<li><code>da = xr.open_mfdataset('*.nc', chunks={'time':10})</code></li>
 </ul>
 </li>
 </ul>
